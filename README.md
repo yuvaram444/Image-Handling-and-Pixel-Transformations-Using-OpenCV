@@ -37,12 +37,12 @@ Display the resulting image.
 
   ### Ex. No. 01
 
-#### 1. Read the image ('Apollo-11-launch.jpg') using OpenCV imread() as a grayscale image.
+#### 1. Read the image ('Eagle_in_Flight.jpg') using OpenCV imread() as a grayscale image.
 ```python
 # YOUR CODE HERE
 ```
 
-#### 2. Print the image width and height.
+#### 2. Print the image width, height & Channel.
 ```python
 # YOUR CODE HERE
 ```
@@ -62,12 +62,12 @@ Display the resulting image.
 # YOUR CODE HERE
 ```
 
-#### 6. Display the Colour image using matplotlib imshow().
+#### 6. Display the Colour image using matplotlib imshow() & Print the image width, height & channel.
 ```python
 # YOUR CODE HERE
 ```
 
-#### 7. Crop the image to extract any specific object from the image.
+#### 7. Crop the image to extract any specific (Eagle alone) object from the image.
 ```python
 # YOUR CODE HERE
 ```
@@ -105,7 +105,7 @@ rect_color = magenta
 # YOUR CODE HERE
 ```
 
-#### 14. Read the image ('Apollo-11-launch.jpg').
+#### 14. Read the image ('Boy.jpg').
 ```python
 # YOUR CODE HERE
 ```
@@ -144,7 +144,21 @@ matrix2 =
 # YOUR CODE HERE
 ```
 
-#### 20. Using the first two images, generate the 3rd image (ref. Bitwise Operations on Images).
+#### 20. Split the image (boy.jpg) into the B,G,R components & Display the channels.
+```python
+# YOUR CODE HERE
+```
+
+#### 21. Merged the R, G, B , displays along with the original image
+```python
+# YOUR CODE HERE
+```
+
+#### 22. Split the image into the H, S, V components & Display the channels.
+```python
+# YOUR CODE HERE
+```
+#### 23. Merged the H, S, V, displays along with original image.
 ```python
 # YOUR CODE HERE
 ```
