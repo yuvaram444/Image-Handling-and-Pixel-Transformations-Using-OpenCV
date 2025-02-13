@@ -28,8 +28,7 @@ Modify the image contrast by creating two higher contrast images using scaling f
 Display the original, lower contrast, and higher contrast images.
 
 ### Step 5:
-Using the first two images, generate the third image using bitwise operations (AND operation).  
-Display the resulting image.
+Split the image (boy.jpg) into B, G, R components and display the channels
 
 ## Program Developed By:
 - **Name:** [Your Name Here]  
