@@ -212,10 +212,33 @@ plt.show()
 ```
 
 ## Output:
-- **i)** Read and Display an Image.  
-- **ii)** Adjust Image Brightness.  
-- **iii)** Modify Image Contrast.  
+- **i)** Read and Display an Image.
+- 1.Read 'Eagle_in_Flight.jpg' as grayscale and display:
+- ![image](https://github.com/user-attachments/assets/0356a117-c9a9-4c74-ad42-292c272b829f)
+- 2.Save image as PNG and display:
+- ![image](https://github.com/user-attachments/assets/2a4887f1-32f8-4f87-aa5d-78aefa2ccf3b)
+  3.Cropped image:
+  ![image](https://github.com/user-attachments/assets/7bd76062-7b7a-438f-bc91-0b2d9ef1abe9)
+4.Resize and flip Horizontally:
+  ![image](https://github.com/user-attachments/assets/23e41c98-ae51-4a43-b8db-77e1c16786bb)
+5.Read 'Apollo-11-launch.jpg' and Display the final annotated image:
+  ![image](https://github.com/user-attachments/assets/b4365a43-a2d5-4310-85ec-069021249a5e)
+
+- **ii)** Adjust Image Brightness.
+-  1.Create brighter and darker images and display:
+-  ![image](https://github.com/user-attachments/assets/df787da6-edc2-4919-ac4b-1688739248ba)
+- **iii)** Modify Image Contrast.
+-  1.Modify contrast using scaling factors 1.1 and 1.2:
+-  ![image](https://github.com/user-attachments/assets/fea56e4d-47b3-40b4-bec9-53fee19aa1d7)
 - **iv)** Generate Third Image Using Bitwise Operations.
+1.Split 'Boy.jpg' into B, G, R components and display:
+  ![image](https://github.com/user-attachments/assets/464250b2-ab98-44e8-855c-9f847653495a)
+2.Merge the R, G, B channels and display:
+  ![image](https://github.com/user-attachments/assets/ddec39d3-1319-4893-a936-d03ce6d49a76)
+3.Split the image into H, S, V components and display:
+  ![image](https://github.com/user-attachments/assets/ff1beb04-a553-40d6-b296-b43e39a38e75)
+4.Merge the H, S, V channels and display:
+  ![image](https://github.com/user-attachments/assets/0b8bf7b9-9b29-45ce-96e8-aab33fc2f58f)
 
 ## Result:
 Thus, the images were read, displayed, brightness and contrast adjustments were made, and bitwise operations were performed successfully using the Python program.
